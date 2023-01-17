@@ -1,0 +1,169 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.titlename{
+    color: rgb(236, 76, 122);
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.intro{
+    background-image: url(/images/header-bg.png);
+    background-repeat: no-repeat;
+    height: 700px;
+    background-size: 100% 100%;
+}
+
+.introdiv{
+    float: left;
+    width: 30%;
+    margin-top: 5%;
+    margin-left: 5%;
+    text-align: justify;
+
+}
+.introdiv p{
+    font-size: 20px;
+}
+.introdiv h1{
+    font-size: 40px;
+}
+.introdiv img{
+    width: 90%;
+}
+
+.hireme{
+    background-image: linear-gradient(180deg, rgb(236, 79, 142), rgb(236, 75, 116));
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px 2px 10px 2px;
+    text-align: center;
+    transition: width .5s;
+}
+.hireme a{
+    text-decoration: none;
+    color: white;
+}
+.hireme:hover{
+    width: 150px;
+    font-size: 20px;
+}
+.introalt{
+    margin-left: 15%;
+    margin-top: 10%;
+}
+.Biography{
+    background-image: url(/images/biography-bg.png);
+    background-size: 100% 100%;
+    height: 700px;
+}
+.bio{
+    float: left;
+    width: 30%;
+    margin-top: 2%;
+    margin-left: 15%;
+    text-align: justify;
+}
+.bio h2{
+    font-size: 35px;
+}
+.bio p{
+    font-size: 20px;
+}
+.bio img{
+    width: 90%;
+}
+.bioalt{
+    margin-left: 5%;
+    margin-top: 10%;
+}
+.cv{
+    width: 150px;
+    border-radius: 2px 10px 2px 10px;
+}
+.cv:hover{
+    width: 200px;
+}
+
+.work{
+    height: 500px;
+    background-image: url(/images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+.work h2{
+    margin-top: 2%;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+.project{
+    width: 20%;
+    float: left;
+    margin-left: 15%;
+    margin-top: 3%;
+}
+.project img{
+    width: 100%;
+}
+.exp2{
+    margin-left: 5%;
+}
+.exp3{
+    margin-left: 5%;
+}
+.client{
+    height: 600px;
+    margin-top: 0%;
+    text-align: center;
+    background-image: url(/images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.client h2{
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+}
+.clientname{
+    font-size: 20px;
+    font-weight: 700;
+}
+.cltd{
+    font-size: 15px;
+    font-weight: lighter;
+}
+.msg{
+    font-size: 20px;
+    font-weight: 700;
+}
+.contact{
+    margin-top: 5%;
+    background-image: linear-gradient(180deg, rgb(236, 79, 142), rgb(236, 75, 116));
+    font-size: 20px;
+    width: 500px;
+    height: 100px;
+    padding: 20px;
+    margin-left: 35%;
+    border-radius: 10px;
+}
+.contact a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.email{
+    font-size: 30px;
+    font-weight: 700;
+}
+footer{
+    text-align: center;
+    font-size: 20px;
+}
